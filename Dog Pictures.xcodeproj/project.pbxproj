@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DECAAE1CB737210067DD8C /* DogCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DECAAD1CB737210067DD8C /* DogCollectionViewController.swift */; };
 		D31B507B1CB5E99F00558EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B507A1CB5E99F00558EC3 /* AppDelegate.swift */; };
 		D31B507D1CB5E99F00558EC3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B507C1CB5E99F00558EC3 /* RootViewController.swift */; };
 		D31B507F1CB5E99F00558EC3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B507E1CB5E99F00558EC3 /* DataViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DECAAD1CB737210067DD8C /* DogCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCollectionViewController.swift; sourceTree = "<group>"; };
 		D31B50771CB5E99F00558EC3 /* Dog Pictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Pictures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31B507A1CB5E99F00558EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D31B507C1CB5E99F00558EC3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D31B507E1CB5E99F00558EC3 /* DataViewController.swift */,
 				D31B50801CB5E99F00558EC3 /* ModelController.swift */,
 				D31B50821CB5E99F00558EC3 /* Main.storyboard */,
+				00DECAAD1CB737210067DD8C /* DogCollectionViewController.swift */,
 				D31B50851CB5E99F00558EC3 /* Assets.xcassets */,
 				D31B50871CB5E99F00558EC3 /* LaunchScreen.storyboard */,
 				D31B508A1CB5E99F00558EC3 /* Info.plist */,
@@ -269,6 +272,7 @@
 				D31B50811CB5E99F00558EC3 /* ModelController.swift in Sources */,
 				D31B507F1CB5E99F00558EC3 /* DataViewController.swift in Sources */,
 				D31B507B1CB5E99F00558EC3 /* AppDelegate.swift in Sources */,
+				00DECAAE1CB737210067DD8C /* DogCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +499,7 @@
 				D31B50A51CB5E99F00558EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31B50A61CB5E99F00558EC3 /* Build configuration list for PBXNativeTarget "Dog PicturesTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				D31B50A81CB5E99F00558EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31B50A91CB5E99F00558EC3 /* Build configuration list for PBXNativeTarget "Dog PicturesUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				D31B50AB1CB5E99F00558EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
